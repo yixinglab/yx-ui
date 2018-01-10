@@ -15,14 +15,18 @@
                         <v-breadcrumb-item href="">List</v-breadcrumb-item>
                         <v-breadcrumb-item href="">App</v-breadcrumb-item>
                     </v-breadcrumb>
-                    <v-content style="background: #fff; padding: 24px; margin: 0; min-height: 280px">Content</v-content>
+                    <v-content style="background: #fff; padding: 24px; margin: 0; min-height: 280px">Content1111</v-content>
                 </v-layout>
             </v-layout>
         </v-layout>
     </div>
 </template>
 
-<style>
+<style lang="postcss">
+    #components-layout-demo-top-side{
+        height: 100%;
+        overflow-y:auto;
+    }
     #components-layout-demo-top-side .logo {
         width: 120px;
         height: 31px;
@@ -30,6 +34,11 @@
         border-radius: 6px;
         margin: 16px 28px 16px 0;
         float: left;
+    }
+    #components-layout-demo-top-side .ant-layout {
+       height: 100%;
+        overflow-y:auto;
+       
     }
 </style>
 <script>
@@ -47,8 +56,14 @@
                     icon: 'user',
                     expand: true,
                     children: [{
+                        selected: true,
                         name: 'yx-card',
-                        selected: true
+                        type: 'item',
+                        father: '流水账管理',
+                        router: {
+                        name: 'CheckMoney'
+                        }
+                        
                     },{
                         name: 'yx-card-details'
                     },{
