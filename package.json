@@ -1,6 +1,6 @@
 {
   "name": "yx-ui",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "A UI components Library for YixingLab",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,14 @@
   "keywords": [
     "yixinglab",
     "vue"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "build",
+    "doc",
+    "examples",
+    "static"
   ],
   "dependencies": {
     "currency.js": "^1.0.0",
