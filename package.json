@@ -1,8 +1,8 @@
 {
   "name": "yx-ui",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A UI components Library for YixingLab",
-  "main": "index.js",
+  "main": "dist/yx-ui.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base test/ --open --inline --hot --compress --history-api-fallback --port 8890 --config build/webpack.dev.config.js",
     "doc": "webpack-dev-server --content-base test/ --open --inline --hot --compress --history-api-fallback --port 8891 --config build/webpack.doc.config.js",

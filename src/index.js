@@ -24,6 +24,6 @@ const install = function(Vue) {
     install(window.Vue);
   }
   
-  export default {
+module.exports = {
     install
   };
