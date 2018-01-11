@@ -56,7 +56,8 @@ export default {
     transform: scale(0.5);
 }
 .van-card .parapublico b {
-    margin-left: 6px;
+    margin-right: 8px;
+    margin-bottom: 8px;
     border: 0.5px solid #fff;
     color: #767676;
     background-color: #f5f5f5;

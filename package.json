@@ -1,6 +1,6 @@
 {
   "name": "yx-ui",
-  "version": "0.0.12",
+  "version": "0.0.21",
   "description": "A UI components Library for YixingLab",
   "main": "dist/yx-ui.js",
   "scripts": {
